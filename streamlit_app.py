@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('Species name checker')
 
-st.write('Hello world!')
+st.write('WellCome to Species name checker')
