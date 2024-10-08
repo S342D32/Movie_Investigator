@@ -15,7 +15,7 @@ with st.expander('About us'):
 st.subheader('Which movie genre perform ($)best the box office?')
 
 df = pd.read_csv('movies_genres_summary.csv')
-df.year = df.year.as_type('int')
+df.year = df.year.astype('int')
 
 genre_list =df.genre.unique()
 genres_selection = st.multiselect('Select genres', genres_list, ['Action', 'Adventure', 'Biography', 'Comedy', 'Drama', 'Horror'])
