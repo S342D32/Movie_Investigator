@@ -5,7 +5,6 @@ import altier as alt
 
 st.title('🎬🎬Movie Investigator')
 
-st.header('Let's Start the investigation')
 
 
 with st.expander('About us')
