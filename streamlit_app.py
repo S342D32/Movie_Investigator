@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import altier as alt
+import altair as alt
 
 st.title('🎬🎬Movie Investigator')
 
